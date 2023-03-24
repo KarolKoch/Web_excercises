@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    }
+    *, *::before, *::after {
+    box-sizing: inherit;
+    }
+    .mainTheme {
+        text-align: center;
+    }
+    h1 {
+        margin-right: 50px
+    }
+    .text {
+        font-family: "Lora", serif;        ;
+        font-weight: 500;
+    }

@@ -1,0 +1,16 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    color: dimgray;
+}
+
+p {
+    color: #6b0916(12, 1, 1);
+}
+
+p.note {
+    color: rgb(196, 31, 31);
+    font-style: italic;
+}

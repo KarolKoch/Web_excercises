@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>First site</title>
+</head>Zajebista strona!</head>
+<body>
+    <p> 
+    <button onclick="askUser()">Kliknij <br>tutaj 
+        </button>
+    Zobaczysz co się stanie! </p>
+    <p>Teraz możemy przejść dalej...</p>
+    <p><dl>
+<dd>1.Opowiem Ci pewną historyjkę
+    <dd>2.Za górami<details>
+     <summary>za lasami</summary>Gdzieś lecz nie wiadomo gdzie</details>
+     <dd>3.Żyły sobie</dd>
+     <dd>4.Różne funkcje używane w HTML i JS...</dd>
+     <dd>5.Zostały odkryte i teraz masz okazję je zobaczyć</dd>
+    </dl>
+       </p>
+       <p>
+        <div id="head">
+            <h3>Teraz będzie zdjęcie</h3></div>
+       </p>
+       <p><b>  <mark>Tu test nosych znaczników a poniżej hiperłącza</mark>></b></p>
+       <p>
+       
+<a href="https://www.youtube.com/watch?v=nAI814u0vQc" target="_blank">Link 1</a> <br>
+<a href="https://www.youtube.com/watch?v=HHFpvJIzB5A&list=RDMM&index=2" target="_blank">Link 2</a>
+       </p>
+       <p>
+        <a href="file:///C:/Users/Karol/Desktop/strona.bmp"><img src="file:///C:/Users/Karol/Desktop/strona%202.bmp" alt="Cham"></a> <br>Piękne zdjęcie
+       </p>
+       <p>
+        <strong>To na chwilę obecną koniec</strong>
+        <br><em>Pozdrawiam <br> Karol Koch</em>
+       </p>
+       <p class="note">Muszę się jeszcze dużo nauczyć</p>
+    <script>
+       "use strict"
+function askUser(){
+let ask = prompt("Fajne co?");
+if(ask === "tak") {
+    window.alert("wiedziałem ;)")
+} else{
+    while(ask !== "tak") {ask = prompt("Fajne co?")}
+window.alert("Wiedziałem...")};
+    }
+</script>
+</body>
+</html>
