@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .background {
     background: center url("gym1.jpg"); no-repeat;
     background-size: cover;
@@ -35,3 +36,42 @@ margin: 10%;
 .vertical-minus1 {
     vertical-align: -0,5em;
     }
+=======
+.background {
+    background: center url("gym1.jpg"); no-repeat;
+    background-size: cover;
+    min-height: 60vh;
+    max-height: 50px;
+    }
+.bg-dark-transparent {
+        background-color: rgba(0,0,0,0.3);
+    }
+.container {
+margin: 10%;
+}
+#o-nas {
+ background-color: #A0A1A0;
+}
+#uslugi {
+ background-color: #463F48;
+}
+
+#portfolio {
+
+}
+#zespol {
+
+}
+#pytania-odpowiedzi {
+
+}
+#cennik {
+
+}
+#stopka {
+    
+}
+.vertical-minus1 {
+    vertical-align: -0,5em;
+    }
+>>>>>>> 4b4588e (aster)

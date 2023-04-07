@@ -1,0 +1,14 @@
+.btn-custom:hover {
+    color: rgb(204, 9, 9);
+    background-color: #9b5e0e;
+    border-color: #ac834f;
+    }
+    div.card.w-50.bg-light /* (karta)*/
+    img.card-img-top /*(zdjęcie)*/
+    div.card-img-overlay.text-white
+    h5.card-title /*(tytuł)*/
+    div.card-body
+    p.card-text /*(treść)*/
+    h6.card-subtitle
+    p.card-text /*(więcej treści)*/
+    a.btn.btn-custom
