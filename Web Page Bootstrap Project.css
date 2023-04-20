@@ -64,14 +64,27 @@
 .team-card {
     font-size: 0.9em;
 }
+.accordion-button:not(.collapsed) {
+    background-color: #f1f2ed;
+    color: #a25442;
+    }
+.accordion-button {
+    font-weight: 600;
+    }
+.image-background-qa {
+    background: center url('qa.jpg') no-repeat;
+    background-size: cover;
+   height: 100%;
+    min-height: 30vh;
+    }
 #w-ofercie {
 background-color: #a25442;
     }
-    #o-nas {
-        background-color: #a9b4a9;
-       }
+#o-nas {
+    background-color: #a9b4a9;
+   }
     #ofertaOpis {
-        color: white;
+    color: white;
     }
 
 
