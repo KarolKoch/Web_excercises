@@ -479,18 +479,34 @@
     </div>
     </div>
   <!--Kontakt-->
-<div class="container">
+<div class="container my-5 text-center">
 <div id="kontakt">
-<h2>Skontaktuj się z nami</h2>
-<p>Mail: PartStoob@mail.com</p>
-<p>Telefon: 12 345 678 901</p>
-<p>Gołąb: biały z czerwono-szarą obrączką dostępny o 12:23 na runku głównym w Krakowie</p>
+  <div class="row g-0 align-items-stretch">
+  <h2>Skontaktuj się z nami</h2>
+  <form action="" method="GET">
+    <div class="mb-3">
+    <label class="form-label" for="name-2">
+    Imię
+    </label>
+    <input type="text" class="form-control text-center" id="name-2" placeholder="Amadeusz" name="name">
+    </div>
+    <div class="mb-3">
+      <label class="form-label" for="email-1">E-mail</label>
+      <input type="email" class="form-control text-center" id="email-1" placeholder="partstoob@email.pl" aria-describedby="email-1-text">
+      <div class="form-text" id="email-1-text">
+      </div>
+      </div>
+    <div class="mb-3">
+    <button type="submit" class="btn btn-primary">Wyślij</button>
+    <button type="reset" class="btn btn-secondary btn-sm">Wyczyść</button>
+    </div>
+    </form>
 </div>
 </div>
 <!--Stopka-->
 <div class="container">
 <div id="stopka">
-<p>Zapraszamy!</p>
+Zapraszamy!
 <p>PartStoob : data założenia 5.04.2023r.</p>
 </div>
 </div>
@@ -499,8 +515,7 @@
 <script src="https://cdn.jsdelivr.net/npm/imagesloaded@4.1.4/imagesloaded.min.js"></script>
    <script type="text/javascript">
        var item = document.querySelector('[data-masonry]')
-    
-       imagesLoaded(item, function() {
+           imagesLoaded(item, function() {
            Outlayer.data(item).layout()
        })
    </script>
