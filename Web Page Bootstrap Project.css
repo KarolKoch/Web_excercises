@@ -4,9 +4,13 @@
     min-height: 60vh;
     max-height: 50px;
     }
-    .row {
-        margin: 4%;
-        padding-bottom: 5%;
+.row {
+    margin: 4%;
+    padding-bottom: 5%;
+    }
+.progress-label {
+    font-size: 0.9em;
+    font-weight: 600;
     }
 .bg-dark-transparent {
         background-color: rgba(0,0,0,0.3);
@@ -14,46 +18,32 @@
 .theme-text-light {
     color: #f1f2ed;
 }
-
 .theme-text-primary {
     color: #a25442;
 }
-
 .theme-text-secondary {
     color: #3a5757;
 }
-
 .theme-text-lightyellow {
     color: #abac88;
 }
-
 .theme-text-darkyellow {
     color: #ba9058;
 }
-
 .theme-bg-light {
     background-color: #f1f2ed;
 }
-
 .theme-bg-primary {
     background-color: #a25442;
 }
-
 .theme-bg-secondary {
     background-color: #3a5757;
 }
-
 .theme-bg-lightyellow {
     background-color: #abac88;
 }
-
 .theme-bg-darkyellow {
     background-color: #ba9058;
-}
-
-.progress-label {
-    font-size: 0.9em;
-    font-weight: 600;
 }
 .vertical-minus1 {
     vertical-align: -0,5em;
@@ -77,52 +67,53 @@
    height: 100%;
     min-height: 30vh;
     }
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+@media screen and (min-width: 768px) {
+    .featured-card {
+    margin-left: -1px;
+    margin-right: -1px;
+    border-color: black;
+    }
+    .pricing-card .card-header {
+    padding-top: 20px;
+    border-color: black;
+    }
+    .featured-card .card-header {
+    padding-top: 40px;
+    border-color: black;
+    }
+    .pricing-card.order-md-1 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 20px;
+    border-color: black;
+    }
+    .pricing-card.order-md-3 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-top: 20px;
+     border-color: black;
+    }
+}
+#card-header {
+    background-color: #a25442;
+    }
+#text_cennik {
+    color: azure;
+    }
 #w-ofercie {
-background-color: #a25442;
+    background-color: #a25442;
     }
 #o-nas {
     background-color: #a9b4a9;
    }
-    #ofertaOpis {
+#ofertaOpis {
     color: white;
     }
-    @media screen and (min-width: 768px) {
-        .featured-card {
-        margin-left: -1px;
-        margin-right: -1px;
-        border-color: black;
-        }
-        .pricing-card .card-header {
-        padding-top: 20px;
-        border-color: black;
-        }
-        .featured-card .card-header {
-        padding-top: 40px;
-        border-color: black;
-        }
-        .pricing-card.order-md-1 {
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        margin-top: 20px;
-        border-color: black;
-        }
-        .pricing-card.order-md-3 {
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        margin-top: 20px;
-        border-color: black;
-        }
-        }
-        #card-header {
-            background-color: #a25442;
-        }
-        #text_cennik {
-            color: azure;
-        }
-        .fa {
-            padding: 20px;
-            font-size: 30px;
-            width: 50px;
-            text-align: center;
-            text-decoration: none;
-          }
