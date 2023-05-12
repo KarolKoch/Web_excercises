@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes, class, hyperlinks</title>
+    <style>
+        .bolded-text {
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        #introduction {
+            color: azure;
+            background-color: black;
+        }
+        .info-box {
+            color: aqua;
+        }
+        .btn {
+            background-color: darkcyan;
+            width: 180px;
+            display: block;
+            font-size: 16px;
+            padding: 14px 40px;
+            border-radius: 4px;
+            }
+        #btn-1:hover {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #008CBA;
+        }
+        #btn-2:hover {
+            background-color: aquamarine;
+            box-shadow: 0 8px 16px 0 red, 0 6px 20px 0 blue;
+        }
+        #btn-3:hover {
+            background-color: brown;
+            color: coral;
+        }
+        a {
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <a href="#chapter-1">--Anchor 1</a>
+    <a href="#chapter-2">--Anchor 2</a>
+    <h4>Attributes</h4>
+    <ol type="A" reversed>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+    </ol>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Lycosa_tarantula.png" alt="image" title="spider" width="200" height="140" data-spider="spider">
+    <!--              -->
+    <h3>Class and id</h3>
+        <p id="introduction">Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p class="bolded-text">Lorem ipsum dolor sit amet.</p>
+        <p class="bolded-text info-box">Lorem ipsum dolor sit.</p>
+        <p class="bolded-text">Lorem ipsum dolor sit amet consectetur.</p>
+    <h3>Hyperlinks</h3>
+    <!--Absolut-->
+    <p>
+    <a href="https://www.youtube.com/">Link</a>
+    </p>
+    <!--Relative - do aktualnie używanej domeny-->
+    <p>
+    <a href="/watch?v=rOjHhS5MtvA">Link</a>
+    </p>
+    <!-- .. do odwołania do katalogu nadrzędnego -->
+    <br>
+    <a href="../folder1">Link</a>
+    <!--Anchor #-->
+    <br>
+    <a href="#A">Link</a>
+    <!--Another-->
+    <br>
+    <a href="tel: 123 333 321">Telefon</a>
+    <br>
+    <a href="mailto: abc@cba.ab">Mail</a>
+    <br>
+    <!--With JS-->
+    <a href="#" onclick="javascript:alert('Hallo there')">Hallo!</a>
+    <p id="chapter-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <p id="chapter-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, praesentium.</p>
+    <h3>Exercise!</h3>
+    <ol>
+        <li> <button class="btn" id="btn-1"> <a href="https://www.google.com/">Google</a> </button> </li>
+        <li> <button class="btn" id="btn-2"> <a href="https://duckduckgo.com/">DuckDuckGo</a> </button> </li>
+        <li> <button class="btn" id="btn-3"> <a href="https://www.bing.com/">Bing</a> </button> </li>
+    </ol>
+    <p> <img id="img-2" src="https://media.istockphoto.com/id/1365141371/pl/zdj%C4%99cie/programista-pracuj%C4%85cy-nad-kodem-komputerowym-javascript-z-wirtualnym-ekranem-technologia.jpg?s=2048x2048&w=is&k=20&c=0n-Gee8wUTMS_gRhhzDTlEvC24aK3NIfCELqyN3qRKw=" alt="programming" width="500" height="400" title="Programming"> </p>
+</body>
+</html>
