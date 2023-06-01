@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form exercise</title>
+</head>
+<body>
+    <h4>Formularz: </h4>
+    <form action="new_article.php" method="post">
+        <p>
+            <label for="title">Tytuł</label>
+            <input type="text" name="title" id="title">
+        </p>
+        <p>
+            <label for="content">Treść artykułu: </label>
+            <textarea name="description" id="" cols="50" rows="4"></textarea>
+        </p>
+        <p>
+            <label for="publication-date">Data: </label>
+            <input type="datetime-local" name="publication-date" id="publication-date">
+        </p>
+        <p> Typ pubikacji: 
+            <input type="radio" name="type" id="news" value="news">
+            <label for="news">News</label>
+            <input type="radio" name="type" id="article" value="article">
+            <label for="article">Artykuł</label>
+            <input type="radio" name="type" id="review" value="review">
+            <label for="review">Recenzja</label>
+        </p>
+        <p> Typ pubikacji: 
+            <input type="checkbox" name="tag" id="lifestyle" value="lifestyle">
+            <label for="news">Lifestyle</label>
+            <input type="checkbox" name="tag" id="travels" value="travels">
+            <label for="article">Podróże</label>
+        </p>
+        <p>
+            <label for="category">Kategoria: </label>
+            <select name="category" id="category">
+                <option value="category1">Kategoria 1</option>
+                <option value="category2">Kategoria 2</option>
+            </select>
+        </p>
+        <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Wyślij</button>
+        </p>
+    </form>
+</body>
+</html>

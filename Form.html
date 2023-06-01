@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h4>Formularze</h4>
+    <form action="login.php" method="post">
+        <fieldset>
+            <legend>Logowanie</legend>
+        <p>
+            <label for="username"> Wpisz użytkownika:
+                <input type="text" name="user_name" id="username" placeholder="Użytkownik1" required>
+            </label>
+        </p>
+        <p>
+            <label for="password">Wpisz hasło:
+                <input type="password" id="password" placeholder="Hasło" required>
+            </label>
+        </p>
+        <p>
+            <button type="submit">Zaloguj</button>
+            <button type="reset">Reset</button>
+        </p>
+    </fieldset>
+    </form>
+    <form action="register.ast" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Rejestracja</legend>
+            <input type="hidden" value="abc" name="hiddenValue">
+            <p>
+                <label for="username"> Wpisz użytkownika: </label>
+                <input type="text" name="user_name" id="username" placeholder="Użytkownik1" required>
+            </p>
+            <p>
+                <label for="email"> Email:</label>
+                <input type="email" name="email" id="email" placeholder="abc@cba.pl" required>
+            </p>
+            <p>
+                <label for="password">Wpisz hasło: </label>
+                <input type="password" id="password" placeholder="Hasło" required>
+            </p>
+            <p>
+                <label for="password2">Wpisz hasło ponownie: </label>
+                <input type="password2" id="password" placeholder="Hasło" required>
+            </p>
+            <p>
+                <label for="age">Wiek: </label>
+                <input type="number" id="age" placeholder="18" min="18" max="120" required>
+            </p>
+            <p>
+                <label for="description">Opis użytkownika:</label> <br>
+                <textarea name="description" id="description" cols="30" rows="10"></textarea>
+            </p>
+            <p>
+                <label for="avatarimg">Wybierz avatar: </label>
+                <input type="file" name="avatar" id="avatarimg" accept="image/png, image/jpeg">
+            </p>
+            <!--<input type="checkbox" name="color" value="red" id="red"> do wyboru kilku opcji na raz-->
+            <p>
+                Ulubiony kolor:
+                <input type="radio" name="color" value="red" id="red">
+                <label for="red">Czerwony</label>
+                <input type="radio" name="color" value="green" id="green">
+                <label for="green">Zielony</label>
+                <input type="radio" name="color" value="yellow" id="yellow">
+                <label for="yellow">Żółty</label>
+            </p>
+            <p>
+                <label for="datatime">Data: </label>
+                <input type="datetime-local" name="datatime" id="datatime">
+            </p>
+            <p>
+                <label for="eyeColor">Kolor oczu</label>
+                <input type="color" name="eyeColor" id="eyeColor">
+            </p>
+            <p>
+                <label for="telefon">Telefon</label>
+                <input type="tel" name="telefon" id="telefon">
+            </p>
+            <p>
+                <label for="distance">Dystans: </label>
+                <input type="range" name="distance" id="distance" min="1" max="100" step="1">
+            </p>
+            <p>
+                <label for="url">Strona: </label>
+                <input type="url" name="urlAdress" id="url">
+            </p>
+            <p>
+                <label for="theme">Cośtam:</label>
+                <select name="theme" id="theme">
+                    <option value="white">Biały</option>
+                    <option value="black">Czarny</option>
+                    <option value="green">Zielony</option>
+                </select>
+            </p>
+            <p>
+                <button type="submit">Rejestracja</button>
+                <button type="reset">Reset</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

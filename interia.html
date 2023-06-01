@@ -26,6 +26,7 @@
         <!--Login box-->
         <div class="main-container">
             <div class="form" id="sitebar">
+                <form class="login-form" method="POST" action="https://auth.interia.pl/auth">
                 <h1 id="log">Logowanie</h1>
                     <input class="account-input" type="text" id="email" name="email">
                     <label for="email">E-mail</label>
@@ -41,10 +42,20 @@
                         <div class="checkbox-label">
                             Zapamiętaj mnie
                         </div>
+                        <div class="options_help">
+                            <a class="options_help_password" href="https://konto-pocztowe.interia.pl/#/odzyskiwanie-dostepu/#utm_source=log_plansza_pbr&utm_medium=log_plansza_pbr&utm_campaign=odzysk_haslo&iwa_source=log_plansza_pbr_odzysk_haslo">
+                                Odzyskaj hasło
+                            </a>
+                            <a href="https://info.poczta.interia.pl/pomoc#iwa_source=log_p_pomoc">Pomoc</a>
+                        </div>
+                    </div>
                     </label>
                 </div>
-                <button class="btn" type="submit">Zaloguj się</button>
+                <button id="btn_log" class="btn" type="submit">Zaloguj się</button>
+                <span class="no-account">Nie masz jeszcze konta?</span>
+                <a id="btn_enroll" href="//konto-pocztowe.interia.pl" class="btn btn--bordered">Załóż konto</a>
                 <i class="icon-pass"></i>
+            </form>
             </div>
             <div class="border"></div>
             <div class="placeholder">

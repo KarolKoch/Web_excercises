@@ -1,0 +1,58 @@
+/* zadanie 1
+.menu-item {
+    background: aqua;
+}
+#current {
+    background: yellow;
+} */
+header {
+    background-color: black;
+}
+ul {
+    text-align: center;
+}
+/*dzieci*/
+li > a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* potomkowie*/
+ul li {
+    display: inline;
+    margin-left: 5px;
+}
+main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*potomkowie*/
+main h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+/*pierwsz sąsiad*/
+p + ol {
+    background-color: azure;
+    padding: 20px;
+}
+/*wszyscy sąsiedzi za listą ol*/
+ol ~ p {
+    font-style: italic;
+}
+.item {
+    font-weight: bold;
+}
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+#item-gallery {
+    margin-top: -16px;
+    width: 100%;
+    height: 200px;
+    background: url('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg') no-repeat center;
+    background-size: cover;
+}
